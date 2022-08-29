@@ -87,3 +87,10 @@ echo "<h1>Hello world</h1>" > index.html
 
 **docker pull nginx:alpine (use alpine version of nginx)**
 
+---
+
+### Dockerfile
+
+**docker build -t website:latest -t website:0.1 .**
+
+**docker run -d -p 80:80 --name website webiste:latest**
