@@ -105,3 +105,4 @@ echo "<h1>Hello world</h1>" > index.html
 
 **docker compose down**
 
+**docker compose down --rmi "local"**
