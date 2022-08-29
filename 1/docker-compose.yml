@@ -1,0 +1,8 @@
+version: '3'
+services:
+  website:
+    # image: imageName -> for already image
+    build: .
+    container_name: website_me
+    ports:
+      - "80:80"
